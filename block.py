@@ -56,7 +56,6 @@ def find_magic_number(stream):
            if (magic == 0xd9b4bef9):
                return magic
 
-
 class Tx_Input(object):
    def __init__(self):
       super(Tx_Input, self).__init__()
